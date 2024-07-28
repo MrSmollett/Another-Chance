@@ -1,11 +1,4 @@
------------------------------------------------------------------------------------------
---
--- main.lua
---
------------------------------------------------------------------------------------------
 
--- Your code here
+local composer = require("composer")
 
-LM = require("code.libs.LoadMap")
-
-LM.LoadMap(1)
+composer.gotoScene( "code.scripts.menu" )
