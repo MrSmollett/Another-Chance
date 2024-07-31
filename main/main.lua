@@ -1,4 +1,4 @@
 
 local composer = require("composer")
 
-composer.gotoScene( "code.scripts.menu" )
+composer.gotoScene( "code.scenes.settings" )

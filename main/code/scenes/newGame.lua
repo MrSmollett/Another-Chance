@@ -1,10 +1,9 @@
-
 local composer = require( "composer" )
 
 local scene = composer.newScene()
 
-_H = display.contentHeight
-_W = display.contentWidth
+_H = display.contentHeight --Высота
+_W = display.contentWidth --Ширина
 _CX = display.contentCenterX
 _CY = display.contentCenterY
 
@@ -24,8 +23,7 @@ function scene:show( event )
 	local phase = event.phase
 
 	if ( phase == "will" ) then
-		local background = display.newImageRect( sceneGroup, "assets/Backgrounds/BGMenu.png", _W, _H )
-			background.x, background.y = _CX, _CY
+		
 	elseif ( phase == "did" ) then
 
 	end
