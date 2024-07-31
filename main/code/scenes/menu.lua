@@ -147,7 +147,7 @@ end
 function scene:destroy( event )
 
 	local sceneGroup = self.view
-	buttons:removeSelf()
+
 end
 
 
