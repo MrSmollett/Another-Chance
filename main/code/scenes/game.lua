@@ -1,6 +1,7 @@
 
 local composer = require( "composer" )
 local loadMap = require("code.scripts.LoadMap")
+local GE = require("code.scripts.gameEngine")
 
 local scene = composer.newScene()
 
@@ -37,6 +38,8 @@ function scene:show( event )
 
 	if ( phase == "will" ) then
 		loadMap.LoadMap(1, bottomLayer, middleLayer)
+		GE.persCreate(true)
+		GE.createControl()
 	elseif ( phase == "did" ) then
 
 	end

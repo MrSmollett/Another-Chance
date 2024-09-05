@@ -33,7 +33,7 @@ M.CreateBlock = function(level, IDBlock, lenghtMap, bottomLayer, middleLayer, ma
  
     if IDBlock ~= "S" then
         if mapName == "mapObject" then
-            print( mapName )
+
             if compLenghtX1Map == lenghtMap then
                 compLenghtX1Map = 0
                 compLenghtY1Map = compLenghtY1Map+1
@@ -52,7 +52,7 @@ M.CreateBlock = function(level, IDBlock, lenghtMap, bottomLayer, middleLayer, ma
                 compLenghtX1Map = compLenghtX1Map+1
             end
         else
-            print( mapName )
+            --print( mapName )
             if compLenghtXMap == lenghtMap then
                 compLenghtXMap = 0
                 compLenghtYMap = compLenghtYMap+1
